@@ -41,7 +41,7 @@ function register($no)
 {
 	$nama = nama();
 	$email = str_replace(" ", "", $nama) . mt_rand(100, 999);
-	$data = '{"name":"' . $nama . '","email":"' . $email . '@mail.com","phone":"+6289' . $no . '","signed_up_country":"ID"}';
+	$data = '{"name":"' . $nama . '","email":"' . $email . '@mail.com","phone":"' . $no . '","signed_up_country":"ID"}';
 	$register = request("/v5/customers", "", $data);
 	echo "\n";
 	echo "Nama: " . $nama . "\n";

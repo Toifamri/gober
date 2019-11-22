@@ -188,7 +188,7 @@ function voc($token)
 }
 echo "\n";
 echo "####################################### \n";
-echo "# To'if Ganteng Hehe.. :>             # \n";
+echo "# To'if Ganteng Hehe.. ;>             # \n";
 echo "####################################### \n";
 echo "\n";
 echo "Total Token: " . $token1 . "\n";
